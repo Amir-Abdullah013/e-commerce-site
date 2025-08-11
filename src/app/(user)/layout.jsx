@@ -1,16 +1,15 @@
-import React from 'react'
-import Header from '../components/UserHeader'
-import Footer from '../components/Footer'
+import React from "react";
+import Header from "../components/UserComponents/UserHeader";
+import Footer from "../components/UserComponents/Footer";
 
-const UserLayout = ({children}) => {
+const UserLayout = ({ children }) => {
   return (
-    <div className='flex flex-col w-full h-screen justify-between'>
-      <Header/>
-        {children}
-        <Footer/>
-     
-</div>
-  )
-}
+    <div className="flex flex-col w-full h-full justify-between items-center gap-8">
+      <Header />
+      {children}
+      <Footer />
+    </div>
+  );
+};
 
-export default UserLayout
+export default UserLayout;
