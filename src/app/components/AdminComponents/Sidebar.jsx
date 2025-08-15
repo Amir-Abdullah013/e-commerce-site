@@ -2,10 +2,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import DashboardIcon from "../icons/DashboardIcon";
-import ItemIcon from "../icons/ItemIcon";
-import Users from "../icons/Users";
-import Categories from "../icons/Categories";
+import DashboardIcon from "../app/components/icons/DashboardIcon";
+import ItemIcon from "../app/components/icons/ItemIcon";
+import Users from "../app/components/icons/Users";
+import Categories from "../app/components/icons/Categories";
 
 // Headings
 const navItems = [
